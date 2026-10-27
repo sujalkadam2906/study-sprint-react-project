@@ -1,0 +1,15 @@
+{
+  "name": "study-sprint-root",
+  "private": true,
+  "workspaces": [
+    "studysprint"
+  ],
+  "scripts": {
+    "build": "npm --prefix studysprint run build",
+    "dev": "npm --prefix studysprint run dev",
+    "lint": "npm --prefix studysprint run lint"
+  },
+  "dependencies": {
+    "vite": "^8.3.4"
+  }
+}
